@@ -1,4 +1,4 @@
-# Sitecore-UI minimal project boilerplate
+# Sitecore-UI minimal project
 
 This is a sample project show minimal configuration required to include a component from Sitecore-UI into a React page.
 
@@ -20,3 +20,11 @@ var Button = require('sitecore-ui/Button').default;
 
 It is a personal taste wether to include or exclude React (and ReactDOM) from your bundle.
 This setup shows a bundle without React in the bundle. To include it simply remove the `externals` setting from `webpack.config.js` and remove the scripts in header of html file.
+
+## Build
+
+* `npm install`
+* `npm run build`
+
+## Run
+Open `public/index.html` in the browser.
