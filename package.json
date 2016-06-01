@@ -1,0 +1,20 @@
+{
+  "name": "sitecore-ui-minimal-project",
+  "version": "1.0.0",
+  "description": "A minimum config example on how to import and use Sitecore-UI react library in production",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "MSC",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "sitecore-ui": "0.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
